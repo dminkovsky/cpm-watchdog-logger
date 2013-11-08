@@ -1,0 +1,13 @@
+{
+  "name": "cpm/watchdog-logger",
+  "description": "Logger that logs with Drupal's `watchdog()`",
+  "type": "library",
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"  
+  },
+  "autoload": {
+    "psr-0": {
+      "Cpm": "src/"
+    }
+  }
+}
